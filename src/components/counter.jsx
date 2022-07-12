@@ -14,10 +14,10 @@ const Counter = (props) => {
   };
 
   const handleIncrement = () => {
-    // setValue((prevState) => prevState + 1);
+    setValue((prevState) => prevState + 1);
   };
   const handleDecrement = () => {
-    // setValue((prevState) => prevState - 1);
+    setValue((prevState) => prevState - 1);
   };
   return (
     <div>
